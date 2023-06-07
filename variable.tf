@@ -1,37 +1,37 @@
 variable "name" {
-    type = string
-    description = "value"
-  
+  type        = string
+  description = "value"
+
 }
 variable "resource_group_name" {
-    type = string
-    description = "value"
-  
+  type        = string
+  description = "value"
+
 }
 variable "location" {
-    type = string
-    description = "value"
-  
+  type        = string
+  description = "value"
+
 }
 variable "service_plan_id" {
-    type = string
-    description = "value"
-  
+  type        = string
+  description = "value"
+
 }
 variable "application_stack" {
-    description = "value"
-    type = bool
-    default = true
-  
+  description = "value"
+  type        = bool
+  default     = true
+
 }
 variable "current_stack" {
-    type = string
-    description = "value"
+  type        = string
+  description = "value"
 }
 
 variable "stack_version" {
-    type = string
-    description = "value"
+  type        = string
+  description = "value"
 }
 
 variable "ftps_state" {
@@ -57,12 +57,12 @@ variable "app_command_line" {
 # }
 
 variable "java_server" {
-  type = string
-  description = "docker image" 
-  default = "JAVA" 
+  type        = string
+  description = "docker image"
+  default     = "JAVA"
 }
 
 variable "docker_image_tag" {
-  type = string
+  type        = string
   description = "Tag for docker image"
 }
